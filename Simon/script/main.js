@@ -27,4 +27,9 @@ function countdown(){
   }
 }
 // Dopo 30 secondi l’utente deve inserire un prompt alla volta i numeri che ha visto precedentemente.
+
+// creo un array vuoto dove pushero' gli imput dell utente
+var arrayNumUtente [];
+
+// creo i prompt
 prompt ("Primo numero?");
