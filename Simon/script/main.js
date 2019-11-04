@@ -16,9 +16,13 @@ randnum ();
 // Da li parte un timer di 30 secondi
 var secondi=10;
 var myinterval=setInterval(countdown, 1000);
+
 function countdown(){
   secondi = secondi -1;
+  
   console.log(secondi);
-  clearInterval(myinterval);
 
+  if (secondi) {
+    clearInterval(myinterval);
+  }
 }
