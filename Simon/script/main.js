@@ -19,10 +19,10 @@ var myinterval=setInterval(countdown, 1000);
 
 function countdown(){
   secondi = secondi -1;
-  
+
   console.log(secondi);
 
-  if (secondi) {
+  if (secondi==0) {
     clearInterval(myinterval);
   }
 }
